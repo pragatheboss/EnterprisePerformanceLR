@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.html
+URL1=https://f-log-extension.grammarly.io/logv2
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=application/xml
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_desc.xml
+URL2=http://192.168.1.73:60000/upnp/dev/00e91b8d-743c-3912-a302-2d1eb6bf14a6/desc
+[ProtocolInfo]
+ProtocolId=QTWeb

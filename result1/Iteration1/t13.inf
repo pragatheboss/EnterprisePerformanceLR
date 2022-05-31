@@ -1,0 +1,13 @@
+[t13]
+SnapshotXmlFile=snapshot_13.xml
+ContentType=text/html
+StepName=Url: Sign out
+Total=1
+FileName1=t13.html
+RequestHeaderFile=t13_RequestHeader.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+RawStepEndTime=1654038921605
+RawStepName=Sign out
+RequestBodyFile=t13_RequestBody.txt
+RawStepStartTime=1654038918258
+URL1=http://automationpractice.com/index.php?controller=authentication&back=history

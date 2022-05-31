@@ -1,0 +1,15 @@
+[t31]
+FileName1=t31.html
+URL1=https://update.googleapis.com/service/update2/json?cup2key=11:PR42-SBHv6MnZOP1tLavcctTD4uMg-PzuYcrP1J0AXI&cup2hreq=3676bb603fb6d4c62fb78f74932a997306137ba99c99c4bc274fe0e72a9bc5f2
+Total=3
+RequestHeaderFile=t31_RequestHeader.txt
+RequestBodyFile=t31_RequestBody.txt
+ResponseHeaderFile=t31_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_31.xml
+FileName2=t31_blockfacebook.css
+URL2=http://automationpractice.com/modules/blockfacebook/css/blockfacebook.css
+FileName3=t31_blockcurrencies.css
+URL3=http://automationpractice.com/themes/default-bootstrap/css/modules/blockcurrencies/blockcurrencies.css
+[ProtocolInfo]
+ProtocolId=QTWeb

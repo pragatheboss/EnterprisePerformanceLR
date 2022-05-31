@@ -1,0 +1,6 @@
+[t14]
+FileName1=t14_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=101
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_14.xml

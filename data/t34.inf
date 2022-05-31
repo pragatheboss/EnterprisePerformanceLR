@@ -1,0 +1,15 @@
+[t34]
+FileName1=t34_like_box.html
+URL1=https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3f69a146935a7c%26domain%3Dautomationpractice.com%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fautomationpractice.com%252Ff1394a1925f28c%26relation%3Dparent.parent&color_scheme=light&container_width=330&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fprestashop&locale=en_US&sdk=joey&show_border=false&show_faces=true&stream=false
+Total=3
+ContentType=text/html
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+FileName2=t34_fullHashes_find.html
+URL2=https://safebrowsing.googleapis.com/v4/fullHashes_find?$req=Ch0KDGdvb2dsZWNocm9tZRINMTAxLjAuNDk1MS42NxIbCg0IBRAGGAEiAzAwMTABEKfwDRoCGAOWU5IyEhsKDQgBEAYYASIDMDAxMAEQgeAKGgIYA_S0aWgSGwoNCAcQBhgBIgMwMDEwARCJpAsaAhgD0dTckRIZCg0IARAGGAEiAzAwMTADEBQaAhgDWbx0fRIaCg0IARAIGAEiAzAwMTAEEK4oGgIYA8vH_HISGgoNCA8QBhgBIgMwMDEwARDicRoCGAPW4AyKEhkKDQgKEAgYASIDMDAxMAEQBxoCGAN3Vzc4EhkKDQgJEAYYASIDMDAxMAEQIBoCGANEBq4zEhoKDQgIEAYYASIDMDAxMAEQ1A8aAhgD6OfM5RIbCg0IDRAGGAEiAzAwMTABEPe8ARoCGAP_5wMgEhsKDQgDEAYYASIDMDAxMAEQirEKGgIYA7xnKlgSGwoNCA4QBhgBIgMwMDEwARCzuAYaAhgD3bRZFxIaCg0IEBAGGAEiAzAwMTABEIkSGgIYAw0XSqoaLAgBCAMIBQgGCAcICAgJCAoIDQgOCA8IEAgREAEQCBoGCgRxxHrqIAEgAyAE&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+FileName3=t34_Hq7X--n9goh.css
+URL3=https://static.xx.fbcdn.net/rsrc.php/v3/yF/l/0,cross/Hq7X--n9goh.css?_nc_x=Ij3Wp8lg5Kz
+[ProtocolInfo]
+ProtocolId=QTWeb

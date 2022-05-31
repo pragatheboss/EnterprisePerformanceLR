@@ -1,0 +1,11 @@
+[t10]
+FileName1=t10.html
+URL1=https://data.grammarly.com/api/props/v2/isLlamaInstalled
+Total=1
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t6]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Submit Data: index.php_6
+Total=1
+FileName1=t6.html
+RequestHeaderFile=t6_RequestHeader.txt
+ResponseHeaderFile=t6_ResponseHeader.txt
+RawStepEndTime=1654038909573
+RawStepName=index.php_6
+RequestBodyFile=t6_RequestBody.txt
+RawStepStartTime=1654038908595
+URL1=http://automationpractice.com/index.php?rand=1653974900340

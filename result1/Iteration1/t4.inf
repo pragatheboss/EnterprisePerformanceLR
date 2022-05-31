@@ -1,0 +1,13 @@
+[t4]
+SnapshotXmlFile=snapshot_4.xml
+ContentType=text/html
+StepName=Url: index.php_4
+Total=1
+FileName1=t4.html
+RequestHeaderFile=t4_RequestHeader.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1654038904915
+RawStepName=index.php_4
+RequestBodyFile=t4_RequestBody.txt
+RawStepStartTime=1654038904280
+URL1=http://automationpractice.com/index.php?controller=search&q=dress&limit=10&timestamp=1653974866930&ajaxSearch=1&id_lang=1

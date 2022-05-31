@@ -1,0 +1,13 @@
+[t27]
+FileName1=t27.html
+URL1=https://update.googleapis.com/service/update2/json?cup2key=11:tVZamVfjCjeNmBHaWbUcMVuknHJ1FAiRtOwLmUy8v5s&cup2hreq=a5c32651cf329180f354becd7c3b1e3362ec1934abf83fd8427ff3e9782257b9
+Total=2
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=t27_RequestBody.txt
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_27.xml
+FileName2=t27_favicon.ico
+URL2=http://automationpractice.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,112 @@
+[
+    {
+        "actionName": "CreateOrder",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: index.php_4",
+                "infFile": "t4.inf",
+                "time": 1654038904918
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: index.php_5",
+                "infFile": "t5.inf",
+                "time": 1654038906175
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: index.php_6",
+                "infFile": "t6.inf",
+                "time": 1654038909577
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: index.php_7",
+                "infFile": "t7.inf",
+                "time": 1654038912712
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Proceed to checkout",
+                "infFile": "t8.inf",
+                "time": 1654038913566
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Data: index.php_8",
+                "infFile": "t9.inf",
+                "time": 1654038914387
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: index.php_9",
+                "infFile": "t10.inf",
+                "time": 1654038915189
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Pay by bank wire (order processing will be longer)",
+                "infFile": "t11.inf",
+                "time": 1654038916052
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: index.php_10",
+                "infFile": "t12.inf",
+                "time": 1654038918211
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Ecomm_CreateOrder_103_Search",
+                "rawStartTime": 1654038904263,
+                "rawEndTime": 1654038906184,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008199453353881836
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_104_AddToCart",
+                "rawStartTime": 1654038908565,
+                "rawEndTime": 1654038909579,
+                "thinkTime": 0.0,
+                "wastedTime": 0.002886533737182617
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_105_ProceedtoCheckout",
+                "rawStartTime": 1654038909611,
+                "rawEndTime": 1654038913579,
+                "thinkTime": 0.0,
+                "wastedTime": 0.007638216018676758
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_106_ProceedtoCheckout1",
+                "rawStartTime": 1654038913610,
+                "rawEndTime": 1654038914389,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003783702850341797
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_107_ProceedtoCheckout2",
+                "rawStartTime": 1654038914421,
+                "rawEndTime": 1654038915198,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004031658172607422
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_108_Pay",
+                "rawStartTime": 1654038915227,
+                "rawEndTime": 1654038916060,
+                "thinkTime": 0.0,
+                "wastedTime": 0.003498077392578125
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_109_ConfirmOrder",
+                "rawStartTime": 1654038916105,
+                "rawEndTime": 1654038918220,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0044138431549072269
+            }
+        ]
+    }
+]

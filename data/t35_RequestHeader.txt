@@ -1,0 +1,11 @@
+GET /index.php?controller=my-account HTTP/1.1
+Host: automationpractice.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://automationpractice.com/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PrestaShop-a30a9934ef476d11b6cc3c983616e364=2WuazkZ%2BJcwd4rE0WzPs5atF6qYniMEDj%2FVLhLXswqh%2B4Q3NBF3KM55VkexhW1Ot%2FjDijhuTkPNxCh5dSWmbEd8P6rmA62wsi%2FI0nxim5qKq7YJbN4lr9%2BHMzHFYA4FJw%2FgaXgcyxrFy558jZtnez96hSZvRQVIQnLKIw4E9YEI%3D000119
+

@@ -1,0 +1,17 @@
+[t17]
+FileName1=t17_like_box.html
+URL1=https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df162af0f65c55%26domain%3Dautomationpractice.com%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fautomationpractice.com%252Ff52f7c7e006e0c%26relation%3Dparent.parent&color_scheme=light&container_width=330&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fprestashop&locale=en_US&sdk=joey&show_border=false&show_faces=true&stream=false
+Total=4
+ContentType=text/html
+SnapshotXmlFile=snapshot_17.xml
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t17_ResponseHeader.txt
+FileName2=t17_status.txt
+URL2=https://www.facebook.com/x/oauth/status?client_id=334341610034299&input_token&origin=1&redirect_uri=http%3A%2F%2Fautomationpractice.com%2Findex.php&sdk=joey&wants_cookie_data=false
+FileName3=t17_Hq7X--n9goh.css
+URL3=https://static.xx.fbcdn.net/rsrc.php/v3/yF/l/0,cross/Hq7X--n9goh.css?_nc_x=Ij3Wp8lg5Kz
+FileName4=t17_fullHashes_find.html
+URL4=https://safebrowsing.googleapis.com/v4/fullHashes_find?$req=Ch0KDGdvb2dsZWNocm9tZRINMTAxLjAuNDk1MS42NxIbCg0IBRAGGAEiAzAwMTABEITwDRoCGAOpmh3gEhsKDQgBEAYYASIDMDAxMAEQ098KGgIYA2ZpNZISGwoNCAcQBhgBIgMwMDEwARDOowsaAhgDs2661RIZCg0IARAGGAEiAzAwMTADEBQaAhgDWbx0fRIaCg0IARAIGAEiAzAwMTAEEK4oGgIYA8vH_HISGgoNCA8QBhgBIgMwMDEwARDhcRoCGANnEKz9EhkKDQgKEAgYASIDMDAxMAEQBxoCGAN3Vzc4EhkKDQgJEAYYASIDMDAxMAEQIBoCGANEBq4zEhoKDQgIEAYYASIDMDAxMAEQ1A8aAhgD6OfM5RIbCg0IDRAGGAEiAzAwMTABEPG8ARoCGAOsYx7HEhsKDQgDEAYYASIDMDAxMAEQzbAKGgIYA3xsy-ESGwoNCA4QBhgBIgMwMDEwARChuAYaAhgDQTrBcRIaCg0IEBAGGAEiAzAwMTABEIYSGgIYA1MONuAaLAgBCAMIBQgGCAcICAgJCAoIDQgOCA8IEAgREAEQCBoGCgRxxHrqIAEgAyAE&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t32]
+FileName1=t32.html
+URL1=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+Total=2
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=t32_RequestBody.txt
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_32.xml
+FileName2=t32_blocklanguages.css
+URL2=http://automationpractice.com/themes/default-bootstrap/css/modules/blocklanguages/blocklanguages.css
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Mon, 30 May 2022 13:42:34 GMT
+Content-Length: 0
+Connection: keep-alive
+Access-Control-Allow-Headers: Keep-Alive,User-Agent,X-Requested-With,Cache-Control,Content-Type
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1;mode=block
+

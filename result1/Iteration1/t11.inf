@@ -1,0 +1,13 @@
+[t11]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=text/html
+StepName=Url: Pay by bank wire (order processing will be longer)
+Total=1
+FileName1=t11.html
+RequestHeaderFile=t11_RequestHeader.txt
+ResponseHeaderFile=t11_ResponseHeader.txt
+RawStepEndTime=1654038916048
+RawStepName=Pay by bank wire (order processing will be longer)
+RequestBodyFile=t11_RequestBody.txt
+RawStepStartTime=1654038915259
+URL1=http://automationpractice.com/index.php?fc=module&module=bankwire&controller=payment

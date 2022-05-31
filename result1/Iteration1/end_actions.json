@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Sign out",
+                "infFile": "t13.inf",
+                "time": 1654038921609
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Ecomm_CreateOrder_999_Logout",
+                "rawStartTime": 1654038918257,
+                "rawEndTime": 1654038921610,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00527644157409668
+            }
+        ]
+    }
+]

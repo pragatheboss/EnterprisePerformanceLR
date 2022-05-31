@@ -1,0 +1,8 @@
+[t22]
+FileName1=t22_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=101
+Total=2
+ContentType=image/x-icon
+SnapshotXmlFile=snapshot_22.xml
+FileName2=t22_favicon.ico
+URL2=http://automationpractice.com/favicon.ico

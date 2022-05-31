@@ -1,0 +1,11 @@
+[t38]
+FileName1=t38.html
+URL1=http://automationpractice.com/index.php?controller=search&q=dress&limit=10&timestamp=1653974866930&ajaxSearch=1&id_lang=1
+Total=1
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_38.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

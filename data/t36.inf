@@ -1,0 +1,13 @@
+[t36]
+FileName1=t36.html
+URL1=https://update.googleapis.com/service/update2/json?cup2key=11:7fptCex9kyvOgQv9hI7JucXxBaTFnvKBHtAxW_0mtcI&cup2hreq=1b21b3d28e295292756b34b18ccf8eeea6c6b623fddecda2439cf4cb4db628e9
+Total=2
+RequestHeaderFile=t36_RequestHeader.txt
+RequestBodyFile=t36_RequestBody.txt
+ResponseHeaderFile=t36_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_36.xml
+FileName2=t36_form-ok.png
+URL2=http://automationpractice.com/themes/default-bootstrap/img/icon/form-ok.png
+[ProtocolInfo]
+ProtocolId=QTWeb

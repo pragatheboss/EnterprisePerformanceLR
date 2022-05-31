@@ -1,0 +1,22 @@
+POST /api/mimic HTTP/1.1
+Host: data.grammarly.com
+Connection: keep-alive
+Content-Length: 63
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="101", "Google Chrome";v="101"
+X-CSRF-Token: AABKv0SThbuL8XAWbC2sZxHUAoUS2FSLX9d68g
+X-Client-Version: 14.1062.0
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+Content-Type: application/json
+X-Client-Type: chromeExt
+X-Container-Id: 6YnXbfH5NCmX
+sec-ch-ua-platform: "Windows"
+Accept: */*
+Origin: chrome-extension://kbfnbcaeplbcioakkpcpgfkobkghlhen
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: gnar_containerId=6YnXbfH5NCmX; tdi=edxqa1tbebpm7r85c; drift_aid=e218c372-a274-46ae-99ba-fe9e1e2030df; driftt_aid=e218c372-a274-46ae-99ba-fe9e1e2030df; OptanonConsent=isIABGlobal=false&datestamp=Thu+Mar+24+2022+16%3A29%3A57+GMT%2B0000+(Greenwich+Mean+Time)&version=6.21.0&hosts=&consentId=b1a79a1e-d3a8-42a0-8fc2-6603a4925006&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0&AwaitingReconsent=false; grauth=AABKv3HzQf-YLBTdtSdsahzZfeh8YdWdsd2lSwljPY6BrrQqsQuHAj8HCfwJNbTmnQP9fmF247bDtpAR; csrf-token=AABKv0SThbuL8XAWbC2sZxHUAoUS2FSLX9d68g; experiment_groups=fsrw_in_sidebar_allusers_enabled|extension_assistant_bundles_all_consumers_enabled|fsrw_in_assistant_all_consumers_enabled|extension_new_rich_text_fields_enabled|officeaddin_outcomes_ui_exp5_enabled1|gdocs_for_chrome_enabled|completions_beta_enabled|premium_ungating_renewal_notification_enabled|kaza_security_hub_enabled|small_hover_menus_existing_enabled|quarantine_messages_enabled|gb_snippets_csv_upload_enabled|grammarly_web_ukraine_logo_dapi_enabled|officeaddin_upgrade_state_exp2_enabled1|gb_analytics_mvp_phase_one_enabled|wonderpass_enabled|apply_formatting_all_consumers_enabled|ipm_extension_release_test_1|snippets_in_ws_gate_enabled|extension_assistant_experiment_all_consumers_enabled|extension_assistant_bundles_all_enabled|officeaddin_proofit_exp3_enabled|gb_in_editor_free_Test1|gdocs_for_all_firefox_enabled|shared_workspaces_enabled|gdpr_signup_enabled|gb_analytics_mvp_phase_one_30_day_enabled|auto_complete_correct_safari_enabled|fluid_gdocs_rollout_enabled|officeaddin_ue_exp3_enabled|officeaddin_upgrade_state_exp1_enabled1|safari_migration_inline_disabled_enabled|refresh_experiments_test_enabled|completions_release_enabled1|extension_assistant_all_consumers_enabled|ipm_localized_upsell_UK_control_1|fsrw_in_assistant_all_enabled|apollo_rollout_gate_enabled_1|autocorrect_new_ui_v3|emogenie_token_length_filter_enabled|emogenie_beta_enabled|apply_formatting_all_enabled|shadow_dom_chrome_enabled|extension_assistant_experiment_all_enabled|gdocs_for_all_safari_enabled|extension_assistant_all_enabled|safari_migration_backup_notif1_enabled|auto_complete_correct_edge_enabled|simplified_assistant_premium_and_free_enabled|safari_migration_popup_editor_disabled_enabled|gdocs_beta_popup_removal_enabled|extension_check_manakin_v2_experiment_enabled|safari_migration_inline_warning_enabled|gdocs_canvas_enabled|gdocs_new_mapping_enabled|officeaddin_perf_exp3_enabled|officeaddin_muted_alerts_exp2_enabled1; P1e5uA2p6U=P1e5uA2p6U; 1uZKCI5lVV=1uZKCI5lVV; 8F55DAXmYR=8F55DAXmYR
+

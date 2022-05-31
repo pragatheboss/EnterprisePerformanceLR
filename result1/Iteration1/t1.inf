@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=text/html
+StepName=Url: index.php
+Total=1
+FileName1=t1.html
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1654038900402
+RawStepName=index.php
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1654038899429
+URL1=http://automationpractice.com/index.php

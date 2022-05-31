@@ -1,0 +1,13 @@
+[t40]
+FileName1=t40.html
+URL1=http://automationpractice.com/index.php?rand=1653974900340
+Total=2
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=t40_RequestBody.txt
+ResponseHeaderFile=t40_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_40.xml
+FileName2=t40_10-cart_default.jpg
+URL2=http://automationpractice.com/img/p/1/0/10-cart_default.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

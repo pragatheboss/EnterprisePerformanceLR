@@ -1,0 +1,11 @@
+GET /index.php?controller=search&orderby=position&orderway=desc&search_query=Dress&submit_search= HTTP/1.1
+Host: automationpractice.com
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://automationpractice.com/index.php?controller=my-account
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PrestaShop-a30a9934ef476d11b6cc3c983616e364=2WuazkZ%2BJcwd4rE0WzPs5atF6qYniMEDj%2FVLhLXswqh%2B4Q3NBF3KM55VkexhW1Ot%2FjDijhuTkPNxCh5dSWmbEXNyQNCDQ6z%2BrnIQCCQdCTDyScXlSPw1SHy27Tkl%2F74v%2B0lKQvP4onYMMHrrWF0lmOeJZuB9C3r5Gbt252CtkYsB8y3slyz4dvzvBVclXs9CyHenmN5sS3mhcOQM4LHIe6ZuP7hWs%2Blso5dSmvoa3oBBayYvWOIUpwI1Vk%2BytYkYigczECQHDrDP1fOQam7VYXRuzEbDP%2B6bIHpn2Lvv3Ifz7VAr6kGom5gTKQS%2BBKyHnGB11MlherptdS1xY%2Fl66GPTM7IPcRNohVWPVJdhAyp3fIZPwxvJs42pPYaya8qsgHOr%2FEDf6SgGRpfkLiRzTw%3D%3D000302
+

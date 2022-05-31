@@ -1,0 +1,48 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.php",
+                "infFile": "t1.inf",
+                "time": 1654038900417
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: index.php_2",
+                "infFile": "t2.inf",
+                "time": 1654038901636
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: index.php_3",
+                "infFile": "t3.inf",
+                "time": 1654038904246
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "Ecomm_CreateOrder_001_Launch",
+                "rawStartTime": 1654038899426,
+                "rawEndTime": 1654038900419,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07422876358032227
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_101_SignIn1",
+                "rawStartTime": 1654038900419,
+                "rawEndTime": 1654038901637,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009177207946777344
+            },
+            {
+                "transactionName": "Ecomm_CreateOrder_102_SignIn2",
+                "rawStartTime": 1654038901652,
+                "rawEndTime": 1654038904247,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0040853023529052738
+            }
+        ]
+    }
+]

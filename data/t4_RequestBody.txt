@@ -1,0 +1,6 @@
+"{\"events\":[{\"action\":\"loaded\",\"eventName\":\"chromeExt/extension-loaded\",\"objectId\":"
+"\"extension\",\"oldVersion\":\"14.1062.0\",\"client\":\"chromeExt\",\"clientVersion\":\"14.106"
+"2.0\",\"instanceId\":\"W0KE5NYh\",\"batchId\":0,\"containerId\":\"6YnXbfH5NCmX\",\"userId\":\""
+"1097670403\",\"isTest\":false,\"userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleW"
+"ebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36\",\"screenWidth\":1536,\"s"
+"creenHeight\":864,\"containerWidth\":0,\"containerHeight\":0,\"devicePixelRatio\":1.25}]}"

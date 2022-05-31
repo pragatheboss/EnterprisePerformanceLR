@@ -1,0 +1,17 @@
+[t42]
+FileName1=t42.html
+URL1=http://automationpractice.com/index.php?controller=order&step=1
+Total=4
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t42_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_42.xml
+FileName2=t42_order-address.html
+URL2=http://automationpractice.com/themes/default-bootstrap/js/order-address.js
+FileName3=t42_order-step-done-last.png
+URL3=http://automationpractice.com/themes/default-bootstrap/img/order-step-done-last.png
+FileName4=t42_order-step-done.png
+URL4=http://automationpractice.com/themes/default-bootstrap/img/order-step-done.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,213 @@
+Virtual User Script started at: 01-06-2022 00:14:59
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2022.0.0 for Windows 11; build 605 (Mar 08 2022 19:29:30)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sahana Saravanan\OneDrive\Desktop\Praga\LoadRunner\Scripts\Ecomm_CreateOrder_v01\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(5): Notify: Transaction "Ecomm_CreateOrder_001_Launch" started.
+vuser_init.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(9): web_url("index.php") started  	[MsgId: MMSG-26355]
+vuser_init.c(9): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_init.c(9): Registered web_reg_find successful for "Text=Sign in" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(9): Notify: Saving Parameter "Launch_count = 1".
+vuser_init.c(9): web_url("index.php") was successful, 81582 body bytes, 630 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(31): Notify: Parameter Substitution: parameter "Launch_count" =  "1"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_001_Launch".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_001_Launch"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_001_Launch" ended with a "Pass" status (Duration: 0.9923 Wasted Time: 0.0742).
+vuser_init.c(37): Notify: Transaction "Ecomm_CreateOrder_101_SignIn1" started.
+vuser_init.c(39): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(39): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(41): web_url("index.php_2") started  	[MsgId: MMSG-26355]
+vuser_init.c(41): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_init.c(41): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_init.c(41): Redirecting "http://automationpractice.com/index.php?controller=my-account" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_init.c(41): To location "http://automationpractice.com/index.php?controller=authentication&back=my-account"  	[MsgId: MMSG-26693]
+vuser_init.c(41): Registered web_reg_find successful for "Text=Already registered?" (count=1)  	[MsgId: MMSG-26364]
+vuser_init.c(41): Notify: Saving Parameter "SignIn1_count = 1".
+vuser_init.c(41): web_url("index.php_2") was successful, 34869 body bytes, 582 header bytes, 41 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(51): Notify: Parameter Substitution: parameter "SignIn1_count" =  "1"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_101_SignIn1".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_101_SignIn1"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_101_SignIn1" ended with a "Pass" status (Duration: 1.2173 Wasted Time: 0.0092).
+vuser_init.c(57): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_init.c(57): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_init.c(59): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(59): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+vuser_init.c(61): Notify: Transaction "Ecomm_CreateOrder_102_SignIn2" started.
+vuser_init.c(63): web_submit_data("index.php_3") started  	[MsgId: MMSG-26355]
+vuser_init.c(63): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_init.c(63): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_init.c(63): Notify: Parameter Substitution: parameter "UserID" =  "admin@xyz.com"
+vuser_init.c(63): Notify: Next row for parameter p_password = 1 [table  = p_password].
+vuser_init.c(63): Notify: Parameter Substitution: parameter "p_password" =  "admin@123"
+vuser_init.c(63): Redirecting "http://automationpractice.com/index.php?controller=authentication" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_init.c(63): To location "http://automationpractice.com/index.php?controller=my-account"  	[MsgId: MMSG-26693]
+vuser_init.c(63): Notify: Saving Parameter "c_token = 14ed5364501ea4d54711cea030a9b753".
+vuser_init.c(63): Registered web_reg_find successful for "Text=My account" (count=4)  	[MsgId: MMSG-26364]
+vuser_init.c(63): Notify: Saving Parameter "SignIn2_count = 4".
+vuser_init.c(63): web_submit_data("index.php_3") was successful, 27216 body bytes, 1737 header bytes, 33 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(79): Notify: Parameter Substitution: parameter "SignIn2_count" =  "4"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_102_SignIn2".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_102_SignIn2"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_102_SignIn2" ended with a "Pass" status (Duration: 2.5946 Wasted Time: 0.0041).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action CreateOrder.
+CreateOrder.c(9): Notify: Transaction "Ecomm_CreateOrder_103_Search" started.
+CreateOrder.c(11): web_url("index.php_4") started  	[MsgId: MMSG-26355]
+CreateOrder.c(11): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(11): Notify: Parameter Substitution: parameter "p_searchItem" =  "dress"
+CreateOrder.c(11): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(11): web_url("index.php_4") was successful, 1649 body bytes, 195 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(21): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(21): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(23): web_reg_save_param started  	[MsgId: MMSG-26355]
+CreateOrder.c(23): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(25): web_url("index.php_5") started  	[MsgId: MMSG-26355]
+CreateOrder.c(25): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(25): Notify: Parameter Substitution: parameter "p_searchItem" =  "dress"
+CreateOrder.c(25): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_1 = 7".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_2 = 1".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_3 = 2".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_4 = 5".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_5 = 3".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_6 = 6".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_7 = 4".
+CreateOrder.c(25): Registered web_reg_find successful for "Text=Sort by" (count=1)  	[MsgId: MMSG-26364]
+CreateOrder.c(25): Notify: Saving Parameter "Search_count = 1".
+CreateOrder.c(25): Notify: Saving Parameter "c_productID_count = 7".
+CreateOrder.c(25): web_url("index.php_5") was successful, 80823 body bytes, 252 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(39): Notify: Parameter Substitution: parameter "Search_count" =  "1"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_103_Search".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_103_Search"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_103_Search" ended with a "Pass" status (Duration: 1.9212 Wasted Time: 0.0082).
+CreateOrder.c(43): Notify: Parameter Substitution: parameter "c_productID_count" =  "7"
+CreateOrder.c(49): Notify: Parameter Substitution: parameter "c_productID_5" =  "3"
+CreateOrder.c(49): Notify: Saving Parameter "c_productID = 3".
+CreateOrder.c(54): Notify: Transaction "Ecomm_CreateOrder_104_AddToCart" started.
+CreateOrder.c(56): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(56): Notify: Parameter Substitution: parameter "c_productID" =  "3"
+CreateOrder.c(56): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(58): web_submit_data("index.php_6") started  	[MsgId: MMSG-26355]
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "p_searchItem" =  "dress"
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "c_productID" =  "3"
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "c_token" =  "14ed5364501ea4d54711cea030a9b753"
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(58): Notify: Parameter Substitution: parameter "p_searchItem" =  "dress"
+CreateOrder.c(58): Registered web_reg_find successful for "Text=id_product=3" (count=1)  	[MsgId: MMSG-26364]
+CreateOrder.c(58): Notify: Saving Parameter "AddToCart_count = 1".
+CreateOrder.c(58): web_submit_data("index.php_6") was successful, 754 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(77): Notify: Parameter Substitution: parameter "AddToCart_count" =  "1"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_104_AddToCart".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_104_AddToCart"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_104_AddToCart" ended with a "Pass" status (Duration: 1.0138 Wasted Time: 0.0029).
+CreateOrder.c(83): Notify: Transaction "Ecomm_CreateOrder_105_ProceedtoCheckout" started.
+CreateOrder.c(85): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(85): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(87): web_url("index.php_7") started  	[MsgId: MMSG-26355]
+CreateOrder.c(87): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(87): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(87): Notify: Parameter Substitution: parameter "p_searchItem" =  "dress"
+CreateOrder.c(87): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(87): Registered web_reg_find successful for "Text=Proceed to checkout" (count=4)  	[MsgId: MMSG-26364]
+CreateOrder.c(87): Notify: Saving Parameter "ProceedtoCheckout_count = 4".
+CreateOrder.c(87): web_url("index.php_7") was successful, 38708 body bytes, 334 header bytes, 37 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(99): web_url("Proceed to checkout") started  	[MsgId: MMSG-26355]
+CreateOrder.c(99): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(99): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(99): web_url("Proceed to checkout") was successful, 32235 body bytes, 334 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(109): Notify: Parameter Substitution: parameter "ProceedtoCheckout_count" =  "4"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_105_ProceedtoCheckout".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_105_ProceedtoCheckout"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_105_ProceedtoCheckout" ended with a "Pass" status (Duration: 3.9680 Wasted Time: 0.0076).
+CreateOrder.c(117): Notify: Transaction "Ecomm_CreateOrder_106_ProceedtoCheckout1" started.
+CreateOrder.c(119): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(119): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(121): web_submit_data("index.php_8") started  	[MsgId: MMSG-26355]
+CreateOrder.c(121): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(121): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(121): Registered web_reg_find successful for "Text=Proceed to checkout" (count=3)  	[MsgId: MMSG-26364]
+CreateOrder.c(121): Notify: Saving Parameter "ProceedtoCheckout1_count = 3".
+CreateOrder.c(121): web_submit_data("index.php_8") was successful, 31758 body bytes, 334 header bytes, 29 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(138): Notify: Parameter Substitution: parameter "ProceedtoCheckout1_count" =  "3"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_106_ProceedtoCheckout1".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_106_ProceedtoCheckout1"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_106_ProceedtoCheckout1" ended with a "Pass" status (Duration: 0.7795 Wasted Time: 0.0038).
+CreateOrder.c(146): Notify: Transaction "Ecomm_CreateOrder_107_ProceedtoCheckout2" started.
+CreateOrder.c(148): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(148): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(150): web_submit_data("index.php_9") started  	[MsgId: MMSG-26355]
+CreateOrder.c(150): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(150): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(150): Registered web_reg_find successful for "Text=Pay by bank wire" (count=2)  	[MsgId: MMSG-26364]
+CreateOrder.c(150): Notify: Saving Parameter "ProceedtoCheckout2_count = 2".
+CreateOrder.c(150): web_submit_data("index.php_9") was successful, 33291 body bytes, 955 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(166): Notify: Parameter Substitution: parameter "ProceedtoCheckout2_count" =  "2"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_107_ProceedtoCheckout2".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_107_ProceedtoCheckout2"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_107_ProceedtoCheckout2" ended with a "Pass" status (Duration: 0.7772 Wasted Time: 0.0040).
+CreateOrder.c(172): Notify: Transaction "Ecomm_CreateOrder_108_Pay" started.
+CreateOrder.c(174): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(174): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(176): web_url("Pay by bank wire (order processing will be longer)") started  	[MsgId: MMSG-26355]
+CreateOrder.c(176): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(176): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(176): Registered web_reg_find successful for "Text=I confirm my order" (count=2)  	[MsgId: MMSG-26364]
+CreateOrder.c(176): Notify: Saving Parameter "Pay_count = 2".
+CreateOrder.c(176): web_url("Pay by bank wire (order processing will be longer)") was successful, 29971 body bytes, 252 header bytes, 29 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(186): Notify: Parameter Substitution: parameter "Pay_count" =  "2"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_108_Pay".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_108_Pay"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_108_Pay" ended with a "Pass" status (Duration: 0.8329 Wasted Time: 0.0035).
+CreateOrder.c(192): web_reg_save_param started  	[MsgId: MMSG-26355]
+CreateOrder.c(192): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(194): Notify: Transaction "Ecomm_CreateOrder_109_ConfirmOrder" started.
+CreateOrder.c(196): web_reg_find started  	[MsgId: MMSG-26355]
+CreateOrder.c(196): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+CreateOrder.c(198): web_submit_data("index.php_10") started  	[MsgId: MMSG-26355]
+CreateOrder.c(198): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(198): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+CreateOrder.c(198): Redirecting "http://automationpractice.com/index.php?fc=module&module=bankwire&controller=validation" (redirection depth is 0)  	[MsgId: MMSG-26694]
+CreateOrder.c(198): To location "http://automationpractice.com/index.php?controller=order-confirmation&id_cart=4669515&id_module=3&id_order=441153&key=9e04cea3a8bb5602e5ef18a2f0f73286"  	[MsgId: MMSG-26693]
+CreateOrder.c(198): Notify: Saving Parameter "OrderID = HVTSFYOFE".
+CreateOrder.c(198): Registered web_reg_find successful for "Text=Your order on My Store is complete" (count=1)  	[MsgId: MMSG-26364]
+CreateOrder.c(198): Notify: Saving Parameter "ConfirmOrder_count = 1".
+CreateOrder.c(198): web_submit_data("index.php_10") was successful, 27453 body bytes, 1250 header bytes, 34 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateOrder.c(210): Notify: Parameter Substitution: parameter "ConfirmOrder_count" =  "1"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_109_ConfirmOrder".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_109_ConfirmOrder"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_109_ConfirmOrder" ended with a "Pass" status (Duration: 2.1148 Wasted Time: 0.0044).
+Ending action CreateOrder.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(5): Notify: Transaction "Ecomm_CreateOrder_999_Logout" started.
+vuser_end.c(7): web_reg_find started  	[MsgId: MMSG-26355]
+vuser_end.c(7): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+vuser_end.c(9): web_url("Sign out") started  	[MsgId: MMSG-26355]
+vuser_end.c(9): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_end.c(9): Notify: Parameter Substitution: parameter "p_url" =  "http://automationpractice.com"
+vuser_end.c(9): Redirecting "http://automationpractice.com/index.php?mylogout=" (redirection depth is 0)  	[MsgId: MMSG-26694]
+vuser_end.c(9): To location "http://automationpractice.com/index.php?controller=order-confirmation&id_cart=4665700&id_module=3&id_order=440830&key=9e04cea3a8bb5602e5ef18a2f0f73286"  	[MsgId: MMSG-26693]
+vuser_end.c(9): Redirecting "http://automationpractice.com/index.php?controller=order-confirmation&id_cart=4665700&id_module=3&id_order=440830&key=9e04cea3a8bb5602e5ef18a2f0f73286" (redirection depth is 1)  	[MsgId: MMSG-26694]
+vuser_end.c(9): To location "http://automationpractice.com/index.php?controller=history"  	[MsgId: MMSG-26693]
+vuser_end.c(9): Redirecting "http://automationpractice.com/index.php?controller=history" (redirection depth is 2)  	[MsgId: MMSG-26694]
+vuser_end.c(9): To location "http://automationpractice.com/index.php?controller=authentication&back=history"  	[MsgId: MMSG-26693]
+vuser_end.c(9): Registered web_reg_find successful for "Text=Already registered?" (count=1)  	[MsgId: MMSG-26364]
+vuser_end.c(9): Notify: Saving Parameter "Logout_count = 1".
+vuser_end.c(9): web_url("Sign out") was successful, 34863 body bytes, 1880 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_end.c(19): Notify: Parameter Substitution: parameter "Logout_count" =  "1"
+globals.h(16): Notify: Saving Parameter "transName = Ecomm_CreateOrder_999_Logout".
+globals.h(20): Notify: Parameter Substitution: parameter "transName" =  "Ecomm_CreateOrder_999_Logout"
+globals.h(20): Notify: Transaction "Ecomm_CreateOrder_999_Logout" ended with a "Pass" status (Duration: 3.3531 Wasted Time: 0.0053).
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 10456), ended OK."

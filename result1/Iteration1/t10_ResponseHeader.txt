@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Tue, 31 May 2022 23:15:14 GMT
+Server: Apache
+Cache-Control: no-cache, must-revalidate
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+P3P: CP="IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA"
+Set-Cookie: PrestaShop-a30a9934ef476d11b6cc3c983616e364=2WuazkZ%2BJcwd4rE0WzPs5f%2FuYBhYGO2KLMGcB2zNAAZlWUe9MJhVc401ZJI2cQqPNTXzYCRVSZUV9E7ukrPotmYTDaY3OiNlZMSoAtflZLsUhZrhUmNkn9nB16Vm9F%2FClEdIL7yD8beg3oevQzthyBZ%2Ff7UFkv53sQ7N9RG7q7Kz4AC8Z8SrmFRakSWtTCqKskJR96BwPXPP0G%2FKJsLG9hX7PkqCFP5FA6vl0qE1QvQxQx8lR0a9sLytj%2BTg51kwAwdI7snM4B65mEA0JY95ji%2FAH9PgwmdonsmALloIU3F6%2FZ6AwKarc57AVArKv7zjQ12hBjKit2vFchih35iPoL%2BoAvZwGn9GvqrLEAmFirPxNhF1U48mVn2kSVqyhpye5s7bAi74k4epvMKgxu%2BmgKhtGMzOxVrmAEeBZM24%2Bgc%3D000315; expires=Mon, 20-Jun-2022 23:15:14 GMT; Max-Age=1727999; path=/; domain=automationpractice.com; httponly
+Keep-Alive: timeout=3, max=91
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+
