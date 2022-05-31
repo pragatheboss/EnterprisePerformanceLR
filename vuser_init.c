@@ -1,3 +1,5 @@
+//Added Boiler Plate
+
 vuser_init()
 {
 	web_set_sockets_option("SSL_VERSION", "AUTO");
